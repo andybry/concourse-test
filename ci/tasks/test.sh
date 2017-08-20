@@ -1,3 +1,4 @@
 set -e
-mv ../node_modules .
+cd source-code
+npm install
 npm test

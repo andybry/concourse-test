@@ -6,9 +6,5 @@ image_resource:
     tag: '8.2-alpine'
 inputs:
   - name: source-code
-    path: source-code
-  - name: npm-cache
-    path: node_modules
 run:
-  path: ci/tasks/test.sh
-  dir: source-code
+  path: source-code/ci/tasks/test.sh
