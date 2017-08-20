@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-ln -s node_modules source-code
 cd source-code
+ln -s ../node_modules node_modules
 ls -R node_modules
 npm test
