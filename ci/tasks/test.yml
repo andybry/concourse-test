@@ -9,7 +9,7 @@ inputs:
   - name: source-code
 
 caches:
-  - name: source-code/node_modules
+  - path: source-code/node_modules
 
 run:
   path: source-code/ci/tasks/test.sh
