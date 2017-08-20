@@ -10,5 +10,5 @@ inputs:
   - name: npm-cache
     path: node_modules
 run:
-  path: source-code/ci/tasks/test.sh
+  path: ci/tasks/test.sh
   dir: source-code
