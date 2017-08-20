@@ -11,5 +11,7 @@ jobs:
     plan:
       - get: source-code
         trigger: true
+      - task: install
+        file: source-code/ci/tasks/install.yml
       - task: test
         file: source-code/ci/tasks/test.yml
