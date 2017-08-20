@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
+mv npm-repo-cache/node_modules source-code
 cd source-code
-ln -s ../node_modules node_modules
-ls -R node_modules
 npm test

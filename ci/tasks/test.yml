@@ -8,7 +8,6 @@ image_resource:
 inputs:
   - name: source-code
   - name: npm-repo-cache
-    path: node_modules
 
 run:
   path: source-code/ci/tasks/test.sh
