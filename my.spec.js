@@ -1,4 +1,5 @@
 const request = require('request');
+const noop = require('lodash/noop');
 
 describe('suite', () => {
     it('should pass', done => {
@@ -12,5 +13,9 @@ describe('suite', () => {
             expect(res.body.resources.core.limit).toBe(60);
             done();
         })
+    });
+
+    it('should also pass', () => {
+        noop();
     });
 });
