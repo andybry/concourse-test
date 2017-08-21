@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 cd src
 npm install
-npm test
+npm test -- --colors
