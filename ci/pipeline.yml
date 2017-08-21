@@ -1,5 +1,5 @@
 resources:
-  - name: source-code
+  - name: src
     type: git
     source:
       uri: git@github.com:andybry/concourse-test.git
@@ -9,9 +9,7 @@ resources:
 jobs:
   - name: test
     plan:
-      - get: source-code
+      - get: src
         trigger: true
-      - task: install
-        file: source-code/ci/tasks/install.yml
-      - task: test
-        file: source-code/ci/tasks/test.yml
+      - task: Task A
+        file: src/ci/tasks/install.yml

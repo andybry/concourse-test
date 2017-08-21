@@ -6,7 +6,7 @@ image_resource:
     tag: 8.2-alpine
 
 inputs:
-  - name: source-code
+  - name: src
 
 run:
-  path: source-code/ci/tasks/test.sh
+  path: src/ci/tasks/test.sh

@@ -11,5 +11,8 @@ inputs:
 caches:
   - path: source-code/node_modules
 
+outputs:
+  - name: node_modules
+
 run:
   path: source-code/ci/tasks/install.sh

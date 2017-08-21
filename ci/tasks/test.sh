@@ -1,3 +1,4 @@
 #!/usr/bin/env sh
-cd source-code
+cd src
+npm install
 npm test
