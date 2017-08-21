@@ -18,8 +18,4 @@ describe('suite', () => {
     it('should also pass', () => {
         noop();
     });
-
-    it('should fail', () => {
-        expect(true).toBe(false);
-    });
 });
