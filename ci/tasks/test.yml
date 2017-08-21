@@ -8,5 +8,8 @@ image_resource:
 inputs:
   - name: src
 
+caches:
+  - path: src/node_modules
+
 run:
   path: src/ci/tasks/test.sh
