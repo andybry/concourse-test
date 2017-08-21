@@ -11,5 +11,5 @@ jobs:
     plan:
       - get: src
         trigger: true
-      - task: Task A
-        file: src/ci/tasks/install.yml
+      - task: trial
+        file: src/ci/tasks/test.yml
